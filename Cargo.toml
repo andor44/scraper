@@ -1,0 +1,21 @@
+[package]
+name = "scraper"
+version = "0.1.0"
+authors = ["Andor Uhlár <andor44@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+irc = "*"
+hyper = "*"
+regex = "*"
+mime = "*"
+rand = "*"
+log = "*"
+rusqlite = "*"
+tempdir = "*"
+magic = "*"
+
+[dependencies.reneko]
+path = "../"
