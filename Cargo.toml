@@ -16,6 +16,8 @@ log = "*"
 rusqlite = "*"
 tempdir = "*"
 magic = "*"
+md5 = "*"
+time = "*"
 
 [dependencies.reneko]
 path = "../"
